@@ -1,0 +1,11 @@
+--- a/include/uapi/linux/nl80211.h
++++ b/include/uapi/linux/nl80211.h
+@@ -3335,7 +3335,7 @@
+ 	NL80211_RRF_NO_CCK		= 1<<1,
+ 	NL80211_RRF_NO_INDOOR		= 1<<2,
+ 	NL80211_RRF_NO_OUTDOOR		= 1<<3,
+-	NL80211_RRF_DFS			= 1<<4,
++	NL80211_RRF_DFS			= 0<<4,
+ 	NL80211_RRF_PTP_ONLY		= 1<<5,
+ 	NL80211_RRF_PTMP_ONLY		= 1<<6,
+ 	NL80211_RRF_NO_IR		= 1<<7,
